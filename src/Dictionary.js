@@ -10,13 +10,6 @@ export default function Dictionary(){
 
     function handleResponse(response){
       setResults(response.data[0]);
-
-
-      //word: response.data[0].word,
-     //definition: response.data[0].meanings[0].definitions[0].definition,
-      //partOfSpeech: response.data[0].meanings[3].partOfSpeech,
-      //phonetic: response.data[0].phonetics[0].text,
-      //audio: response.data[0].phonetics[0].audio,
     
     }
     
@@ -36,12 +29,14 @@ export default function Dictionary(){
 
     return (
       <div className="Dictionary">
-        <form className="" onSubmit={search}>
-          <input
-            className="form-control form-control-lg"
-            type="search"
-            onChange={handleKeywordChange}
-          ></input>
+        <form className="d-flex justify-content-center" onSubmit={search}>
+          <div className="col-sm-6">
+            <input
+              className="form-control"
+              type="search"
+              onChange={handleKeywordChange}
+            ></input>
+          </div>
         </form>
         <Results results={results} />
       </div>
