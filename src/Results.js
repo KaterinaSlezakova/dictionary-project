@@ -18,6 +18,7 @@ export default function Results(props){
           
         })}
         </div>
+        
       </div>
     );
 
