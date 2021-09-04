@@ -29,6 +29,7 @@ export default function Dictionary(){
 
     return (
       <div className="Dictionary">
+        <section>
         <form className="d-flex justify-content-center" onSubmit={search}>
           <div className="col-sm-6">
             <input
@@ -38,6 +39,7 @@ export default function Dictionary(){
             ></input>
           </div>
         </form>
+        </section>
         <Results results={results} />
       </div>
     );
