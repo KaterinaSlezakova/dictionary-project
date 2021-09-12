@@ -1,8 +1,8 @@
 .Dictionary section {
-    background: rgba(252, 252, 252, 0.8);
+    background:  rgba(255, 255, 255, 0.8);
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0px 10px 10px rgba(0,0,0, 0.5);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
     margin: 20px 0;
     color:black;
 }
