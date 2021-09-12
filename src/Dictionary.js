@@ -30,15 +30,18 @@ export default function Dictionary(){
     return (
       <div className="Dictionary">
         <section>
-        <form className="d-flex justify-content-center" onSubmit={search}>
-          <div className="col-sm-6">
-            <input
-              className="form-control"
-              type="search"
-              onChange={handleKeywordChange}
-            ></input>
+          <form className="d-flex justify-content-center" onSubmit={search}>
+            <div className="col-sm-6">
+              <input
+                className="form-control form-control-lg"
+                type="search"
+                onChange={handleKeywordChange}
+              ></input>
+            </div>
+          </form>
+          <div className= "hint">
+            suggested words: sunset, book, phone, wine...
           </div>
-        </form>
         </section>
         <Results results={results} />
       </div>
