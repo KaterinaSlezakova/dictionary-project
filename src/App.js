@@ -10,7 +10,7 @@ export default function App() {
       Dictionary
         </header>
         <main>
-        <Dictionary defaultKeyword="magic"/>
+        <Dictionary defaultKeyword="book"/>
         </main>
         <footer className="App-footer">
         <small>

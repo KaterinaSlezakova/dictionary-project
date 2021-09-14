@@ -38,6 +38,7 @@ export default function Dictionary(props){
      return (
        <div className="Dictionary">
          <section>
+           <h1>What word do you want to look up?</h1>
            <form
              className="d-flex justify-content-center"
              onSubmit={handleSubmit}
@@ -47,6 +48,7 @@ export default function Dictionary(props){
                  className="form-control form-control-lg"
                  type="search"
                  onChange={handleKeywordChange}
+                 defaultValue={props.defaultKeyword}
                ></input>
              </div>
            </form>

@@ -17,4 +17,11 @@ color:#ffffff;
 text-align: center;
 margin: 30px 0;
 }
+.App-footer a {
+  color:#0A58CA;
+  text-decoration: none;
+}
+.App-footer a:hover {
+  text-decoration: underline;
+}
 
